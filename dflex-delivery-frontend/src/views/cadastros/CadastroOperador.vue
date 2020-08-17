@@ -1,13 +1,13 @@
 <template>
-    <Title title="Cadastro de Operador"></Title>
+    <TitlePage title="Cadastro de Operador"></TitlePage>
 </template>
 
 <script>
-import Title from '@/components/Title.vue'
+import TitlePage from '@/components/TitlePage.vue'
 export default {
     name: 'CadastroOperador',
     components:{
-        Title
+        TitlePage
     },
     data(){
         return{

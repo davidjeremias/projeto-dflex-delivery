@@ -4,10 +4,12 @@ import router from './router'
 import axios from 'axios'
 import moment from 'moment'
 import vuetify from './plugins/vuetify'
+import VueMask from 'v-mask'
 
 Vue.use(vuetify)
+Vue.use(VueMask)
 
-axios.defaults.baseURL = 'http://localhost:9080/dflexdelivery-backend/'
+axios.defaults.baseURL = 'http://localhost:9080/ricopay-backend/'
 
 axios.interceptors.request.use(async config => {
   const token = sessionStorage.getItem('token')

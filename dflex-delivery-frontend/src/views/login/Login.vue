@@ -43,11 +43,7 @@
 
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn
-            color="primary"
-            @click="login"
-            :disabled="isButton"
-          >
+          <v-btn rounded color="primary" @click="login" :disabled="isButton">
             Entrar
           </v-btn>
         </v-card-actions>

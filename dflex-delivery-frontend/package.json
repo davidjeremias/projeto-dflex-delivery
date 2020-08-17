@@ -1,6 +1,6 @@
 {
-  "name": "dflex-delivery",
-  "version": "1.0.0",
+  "name": "ricopay-frontend",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,6 +11,7 @@
     "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "moment": "^2.26.0",
+    "v-mask": "^2.2.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuetify": "^2.2.11"

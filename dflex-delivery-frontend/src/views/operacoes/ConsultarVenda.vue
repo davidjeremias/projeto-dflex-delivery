@@ -1,13 +1,13 @@
 <template>
-    <Title title="Consultar Venda"></Title>
+    <TitlePage title="Consultar Venda"></TitlePage>
 </template>
 
 <script>
-import Title from '@/components/Title.vue'
+import TitlePage from '@/components/TitlePage.vue'
 export default {
     name: 'ConsultarVenda',
     components:{
-        Title
+        TitlePage
     },
     data(){
         return{

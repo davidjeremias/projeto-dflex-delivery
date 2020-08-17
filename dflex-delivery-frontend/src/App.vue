@@ -26,3 +26,9 @@ export default {
   
 };
 </script>
+
+<style>
+  span.btn-form-save{
+    color: white !important;
+  }
+</style>

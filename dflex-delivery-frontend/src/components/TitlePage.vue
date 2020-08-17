@@ -1,16 +1,19 @@
 <template>
-<div>
-    <h5>{{title}}</h5>
-    <v-divider></v-divider>
-</div>
-    
+    <div class="sp-h5">
+        <h5>{{title}}</h5>
+        <v-divider></v-divider>
+    </div>
 </template>
 
 <script>
 export default {
-    name: 'Title',
+    name: 'TitlePage',
     props:{
         title:{
+            type: String,
+            default: ""
+        },
+        tamanho:{
             type: String,
             default: ""
         }
@@ -23,4 +26,8 @@ export default {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 25px;
     }
+    .sp-h5{
+        height: 60px !important; 
+    }
+
 </style>
